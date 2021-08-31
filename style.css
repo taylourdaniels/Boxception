@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    border: 3px solid black;
+    display: block;
+}
+
+#middle {
+    height: 100px;
+    width: 100px;
+    
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#outer {
+    height: 150px;
+    width: 150px;
+   
+    /*Center the outside box to the center of the screen*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#inner {
+    height: 50px;
+    width: 50px;
+    
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
